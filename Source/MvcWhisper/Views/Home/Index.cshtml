@@ -24,8 +24,8 @@ div class="audio-prompt-container">
         // Wenn bereits aufgenommen wird: Stoppen und senden
         if (mediaRecorder && mediaRecorder.state === "recording") {
             mediaRecorder.stop();
-            recordBtn.textContent = "🎤 Aufnahme starten";
-            statusDiv.textContent = "Verarbeite Audio...";
+            recordBtn.textContent = "🎤 Start recording";
+            statusDiv.textContent = "Process audio recording ...";
             return;
         }
 
